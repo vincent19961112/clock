@@ -1,12 +1,3 @@
-function abc() {
-    var time = new Date();
-    var hr = time.getHours();
-    var min = time.getMinutes();
-    var sec = time.getSeconds();
-    alert(hr + "hr" + min + "min" + sec + "sec");
-}
-abc();
-
 (function() {
     var time = new Date(),
         second = time.getSeconds() / 60 * 360,

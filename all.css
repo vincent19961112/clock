@@ -132,6 +132,7 @@ body {
     height: 1px;
     width: 1px;
     z-index: 5;
+    animation: sec-hand 60s linear infinite;
 }
 
 .sec-hand:before {
@@ -161,7 +162,7 @@ body {
     height: 1px;
     width: 1px;
     z-index: 4;
-    transform: rotate(240deg);
+    animation: min-hand 3600s linear infinite;
 }
 
 .min-hand:before {
@@ -193,7 +194,7 @@ body {
     height: 1px;
     width: 1px;
     z-index: 3;
-    transform: rotate(120deg);
+    animation: hr-hand 43200s linear infinite;
 }
 
 .hr-hand:before {
