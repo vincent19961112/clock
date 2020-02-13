@@ -1,3 +1,3 @@
 # clock
-  hr can`t move
-  min can`t move
+ - hr can`t move
+ - min can`t move
